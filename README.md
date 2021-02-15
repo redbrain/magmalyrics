@@ -8,7 +8,7 @@ Based on Jagrosh's JLyrics. Pairs well with [magmaplayer](https://github.com/red
 // install: npm i magmalyrics
 const magmalyrics = require('magmalyrics');
 const lyricsclient = new magmalyrics();
-lyrics = await lyricsclient.getLyrics('werewolves in london');
+lyrics = await lyricsclient.getLyrics('werewolves of london');
 console.log(lyrics.content); // "I saw a werewolf with a Chinese menu in his hand..."
 ```
 ## Docs
